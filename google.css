@@ -1,0 +1,138 @@
+body{
+    position: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+section{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+section header{
+    position:absolute;
+    width: 100%;
+    display: flex;
+    top:0;
+    justify-content: flex-end;
+    padding:10px;
+}
+section header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section header ul li{
+    list-style: none;
+    margin:15px;
+}
+section header ul li a{
+    color:#111 ;
+    text-decoration: none;
+    font-size: 14px;
+}
+section header ul li button{
+    background-color: #4584ef;
+    border: none;
+    outline: none;
+    padding:8px 14px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+section .google{
+    width:680px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+section .google .searchbox{
+    position:relative;
+    width:100%;
+    margin-top:20px;
+}
+section .google .searchbox .search{
+    width:98%;
+    padding:13px;
+    padding-left: 60px;
+    border-radius:30px;
+    border: 1px solid #ccc;
+    outline:none;
+    font-size:16px;
+}
+section .google .searchbox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 13px 30px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .google .buttons{
+    margin-top: 20px;
+
+}
+section .google .buttons button{
+    border: none;
+    margin:0 5px;
+    background-color: white;
+    justify-content: space-between;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid transparent;
+    outline:none;
+    cursor:pointer;
+}
+section .google .buttons button:hover{
+    border:1px solid #ccc;
+}
+section .google .lang{
+    margin-top:20px;
+    font-size: 13px;
+    color: #555;
+}
+section footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color: #f2f2f2;
+}
+section footer .head{
+    width: 100%;
+    display: flex;
+    color: gray;
+    border-color: 2px solid black
+}
+section footer .row {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1 solid rgba(53, 50, 50, 0.5);
+    
+}
+section footer .row ul{
+    display: flex;
+}
+section footer .row ul li{
+    list-style: none;
+}
+section footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    margin:20px;
+    color: #5f6368;
+}
+section footer .row ul li a:hover{
+    text-decoration: underline;
+}
